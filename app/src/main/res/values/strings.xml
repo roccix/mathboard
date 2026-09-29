@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MathBoard</string>
+    <string name="subtype_label">Math symbols</string>
+    <string name="tagline">A keyboard for math symbols</string>
+
+    <string name="section_setup">Get started</string>
+    <string name="step_enable_title">Enable MathBoard</string>
+    <string name="step_enable_todo">Turn it on in the keyboard settings</string>
+    <string name="step_enable_done">Enabled</string>
+    <string name="step_select_title">Switch to MathBoard</string>
+    <string name="step_select_todo">Pick it as your current keyboard</string>
+    <string name="step_select_done">MathBoard is your current keyboard</string>
+
+    <string name="section_try">Try it</string>
+    <string name="try_hint" translatable="false">∀ε &gt; 0 ∃δ &gt; 0 : |x − x₀| &lt; δ ⇒ |f(x) − f(x₀)| &lt; ε</string>
+
+    <string name="section_gestures">How to use</string>
+    <string name="g_tap">Tap a key to insert its symbol</string>
+    <string name="g_hold">Hold for variants, then slide and release to pick one</string>
+    <string name="g_space">Slide on the space bar to move the cursor</string>
+    <string name="g_tex">Turn on TeX to type LaTeX commands instead of symbols</string>
+    <string name="g_abc">Go back to your previous keyboard. Hold it to pick another one</string>
+    <string name="g_matrix">▦ or ƒ(A) opens the matrix editor: set the size with − +, fill in the cells, compute (λ·A, A·B, det, A⁻¹…) and tap ✓ Insert. a⁄b works the same way for fractions</string>
+    <string name="matrix_hint">Drag to pick the size</string>
+    <string name="g_recent">Your recently used symbols</string>
+    <string name="recents_empty">Symbols you use will show up here</string>
+
+    <string name="editor_matrix">Matrix %1$d × %2$d</string>
+    <string name="editor_fraction">Fraction</string>
+    <string name="editor_insert">Insert</string>
+    <string name="op_hint">Pick an operation, or tap ✓ Insert</string>
+    <string name="op_pending">Fill in %1$s, then tap Compute</string>
+    <string name="err_numeric">Only numbers here (e.g. 3, −2.5, 3/4)</string>
+    <string name="err_size">The sizes don\'t match</string>
+    <string name="err_square">This needs a square matrix</string>
+    <string name="err_singular">Not invertible (det = 0)</string>
+    <string name="err_exponent">The exponent must be a whole number</string>
+    <string name="err_not_diag">Not diagonalizable: an eigenspace is too small</string>
+    <string name="err_irrational">Eigenvalues aren\'t rational: see λᵢ; no exact P and D</string>
+    <string name="calc_button">Compute %1$s</string>
+    <string name="op_cancel">Cancel operation</string>
+
+    <string name="footer">No permissions · No internet · Version %1$s</string>
+</resources>

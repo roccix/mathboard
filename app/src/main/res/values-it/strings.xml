@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="subtype_label">Simboli matematici</string>
+    <string name="tagline">Una tastiera per i simboli matematici</string>
+
+    <string name="section_setup">Per iniziare</string>
+    <string name="step_enable_title">Attiva MathBoard</string>
+    <string name="step_enable_todo">Abilitala nelle impostazioni delle tastiere</string>
+    <string name="step_enable_done">Attivata</string>
+    <string name="step_select_title">Passa a MathBoard</string>
+    <string name="step_select_todo">Sceglila come tastiera in uso</string>
+    <string name="step_select_done">MathBoard è la tastiera in uso</string>
+
+    <string name="section_try">Provala</string>
+
+    <string name="section_gestures">Come si usa</string>
+    <string name="g_tap">Tocca un tasto per inserire il simbolo</string>
+    <string name="g_hold">Tieni premuto per le varianti, poi scorri e rilascia per sceglierne una</string>
+    <string name="g_space">Scorri sulla barra spaziatrice per spostare il cursore</string>
+    <string name="g_tex">Attiva TeX per scrivere comandi LaTeX invece dei simboli</string>
+    <string name="g_abc">Torna alla tastiera precedente. Tienilo premuto per sceglierne un\'altra</string>
+    <string name="g_matrix">▦ o ƒ(A) apre l\'editor delle matrici: scegli la dimensione con − +, compila le caselle, calcola (λ·A, A·B, det, A⁻¹…) e tocca ✓ Inserisci. a⁄b funziona allo stesso modo per le frazioni</string>
+    <string name="matrix_hint">Trascina per la dimensione</string>
+    <string name="g_recent">I simboli che hai usato di recente</string>
+    <string name="recents_empty">I simboli che usi appariranno qui</string>
+
+    <string name="editor_matrix">Matrice %1$d × %2$d</string>
+    <string name="editor_fraction">Frazione</string>
+    <string name="editor_insert">Inserisci</string>
+    <string name="op_hint">Scegli un\'operazione o tocca ✓ Inserisci</string>
+    <string name="op_pending">Compila %1$s, poi tocca Calcola</string>
+    <string name="err_numeric">Solo numeri (es. 3, −2,5, 3/4)</string>
+    <string name="err_size">Le dimensioni non sono compatibili</string>
+    <string name="err_square">Serve una matrice quadrata</string>
+    <string name="err_singular">Non invertibile (det = 0)</string>
+    <string name="err_exponent">L\'esponente deve essere un numero intero</string>
+    <string name="err_not_diag">Non diagonalizzabile: un autospazio è troppo piccolo</string>
+    <string name="err_irrational">Autovalori non razionali (vedi λᵢ): P e D esatte non disponibili</string>
+    <string name="calc_button">Calcola %1$s</string>
+    <string name="op_cancel">Annulla operazione</string>
+
+    <string name="footer">Nessun permesso · Nessun accesso a Internet · Versione %1$s</string>
+</resources>
