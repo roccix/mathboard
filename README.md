@@ -7,6 +7,12 @@ A Gboard-style Android keyboard for typing math: logic, set theory, analysis, to
 > [!NOTE]
 > **This project was vibe-coded.** I built it by talking to an AI coding assistant ([Claude Code](https://claude.com/claude-code)), describing what I wanted and testing it on my phone. It works and I use it, but I didn't write most of the code by hand and I'm still learning how it works. See [What I still need to learn](#what-i-still-need-to-learn). Issues, advice and pull requests are very welcome.
 
+## Why
+
+I study math and I ask AI models like ChatGPT a lot of questions about it, often from my phone. I also discuss math on WhatsApp. On a phone keyboard, writing a lemma or a proof means spelling everything out in words: "for every epsilon greater than zero there exists a delta such that…", "A is a subset of B", "the closure of U". That is what mathematicians did before Robert Recorde, who in 1557 introduced the = sign "to avoid the tedious repetition of these words: *is equal to*". Symbols exist to make mathematics short and precise, but phone keyboards hide them.
+
+MathBoard puts them one tap away: `∀ε > 0 ∃δ > 0 : |x − x₀| < δ ⇒ |f(x) − f(x₀)| < ε`. AI chats understand both Unicode symbols and LaTeX, so the keyboard can type either, and it can also build and compute matrices so you don't have to type them cell by cell.
+
 ## Features
 
 - **Symbol pages** (tap for the symbol, hold for variants, like Gboard):
@@ -33,7 +39,7 @@ A Gboard-style Android keyboard for typing math: logic, set theory, analysis, to
        c
   ```
 - **Ergonomics**: key preview, slide to pick variants, drag on the space bar to move the cursor, repeat on ⌫ and ‹ ›, haptics, light/dark theme.
-- **Privacy**: no permissions and no internet access. The release APK is about 100 KB.
+- **Privacy**: no permissions and no internet access. The release APK is about 160 KB.
 
 ## Install
 
@@ -83,7 +89,9 @@ This is my to-do list as the author, since the code was written with AI help:
 
 ## Italiano
 
-Tastiera Android in stile Gboard per scrivere matematica, con un editor di matrici che fa i calcoli e inserisce il risultato in Unicode o LaTeX. **Il progetto è stato vibecodato**, cioè scritto dialogando con un assistente AI. Funziona, ma devo ancora:
+Tastiera Android in stile Gboard per scrivere matematica, con un editor di matrici che fa i calcoli e inserisce il risultato in Unicode o LaTeX.
+
+**Perché:** quando interrogo ChatGPT o altri modelli AI su questioni di matematica, o ne discuto su WhatsApp, dal telefono è scomodo scrivere lemmi e dimostrazioni: si finisce per scriverli a parole, per esteso, come si faceva prima che Robert Recorde introducesse il segno = (1557) proprio per non ripetere «è uguale a». Da qui l'idea di una tastiera che metta i simboli a portata di tocco, in Unicode o in LaTeX, che i modelli AI capiscono entrambi. **Il progetto è stato vibecodato**, cioè scritto dialogando con un assistente AI. Funziona, ma devo ancora:
 - migliorare la UI e studiare il design;
 - imparare Kotlin;
 - studiare l'architettura di Android e iOS e come funzionano le rispettive tastiere;
